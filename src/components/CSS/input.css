@@ -1,0 +1,51 @@
+*{
+    text-align: center;
+}
+ul{
+    list-style-type:  none;
+}
+
+body{
+    background-color: darkturquoise;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+li{
+    width: 700px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+div>.day{
+    color: mediumblue;
+}
+li>span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.inputBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.day{
+    display: block;
+}
+/*체크일때 나오는 스타일*/
+.on{    
+    text-decoration: line-through;
+    color: gray;
+}
