@@ -1,4 +1,8 @@
-const SelectInputComp = () =>{
+const TodoComp = () =>{
+
+    
+
+
     return(
         <div>
             hi
@@ -7,4 +11,4 @@ const SelectInputComp = () =>{
 }
 
 
-export default SelectInputComp;
+export default TodoComp;
